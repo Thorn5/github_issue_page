@@ -1,3 +1,9 @@
+API to get list of issues => https://api.github.com/repos/rails/rails/issues?page=${page}
+Reminder => (${page}) => this value is going to be dynamic and set the state)
+
+API to get detail infor of a specific issue => https://api.github.com/repos/rails/rails/issues/${issueId.id}
+Reminder => (${issueId.id} => this value is going to be dynamic and come from the URL)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
